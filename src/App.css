@@ -1,0 +1,54 @@
+body{
+  background-image: url(https://media.istockphoto.com/photos/blue-water-texture-blue-mint-water-surface-with-rings-and-ripples-spa-picture-id1328350710?b=1&k=20&m=1328350710&s=170667a&w=0&h=TBUd3OlTfG_BXms6AcKGWY1mVpDaKB4LM3KDRGDsTp4=);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Abyssinica SIL', serif;
+  color: #181818;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box{
+  padding: 5px;
+  margin: 10px;
+}
+h1{
+ font-size: 45px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 25px;
+}
+
+.btn{
+  padding: 10px;
+  width: 120px;
+  border: 1px solid #06283D;
+  border-radius: 3px;
+  background-color: #8BBCCC;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn:hover{
+  background-color: #4C6793;
+  transition: 1s ease;
+}
+.bigBtn{
+  padding: 12px;
+  width: 200px;
+  font-size: 18px;
+  border: 1px solid #06283D;
+  border-radius: 3px;
+  background-color: #B1B2FF;
+  font-weight: 600;
+}
+.bigBtn:hover{
+  background-color: #4C6793;
+  transition: 1s ease;
+}
